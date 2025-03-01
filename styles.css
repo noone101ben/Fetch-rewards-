@@ -1,0 +1,118 @@
+/* Dark Mode Styles */
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header h1 {
+    color: #FFA719;
+    font-size: 28px;
+}
+
+header p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* CTA Section */
+.cta {
+    margin-top: 20px;
+}
+
+.cta-button {
+    background-color: #FFA719;
+    color: #121212;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+    transition: 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #ff8c00;
+    transform: scale(1.05);
+    color: white;
+}
+
+.small-text {
+    font-size: 12px;
+    color: #cccccc;
+}
+
+/* Sections */
+.how-it-works, .benefits {
+    margin-top: 40px;
+    text-align: left;
+    padding: 15px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+}
+
+.how-it-works h2, .benefits h2 {
+    color: #FFA719;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    margin-top: auto;
+    padding: 10px;
+    font-size: 14px;
+}
+
+footer a {
+    color: #FFA719;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .cta-button {
+        width: 100%;
+        font-size: 16px;
+    }
+}
